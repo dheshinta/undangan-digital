@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dheshinta.github.io/undangan-digital/sitemap.xml
