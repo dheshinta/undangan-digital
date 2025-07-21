@@ -1,66 +1,65 @@
-<!-- style.css -->
+/* style.css */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background-color: #f9f9f9;
 }
 
-header, footer {
+header {
   background-color: #004466;
-  color: #fff;
-  padding: 1em;
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-nav a {
-  margin: 0 10px;
-  color: #fff;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
   text-decoration: none;
 }
 
 .hero {
-  background-color: #d9f0ff;
-  padding: 2em;
+  background-color: #e6f4ff;
+  padding: 40px 20px;
   text-align: center;
-}
-
-main {
-  padding: 2em;
-}
-
-section {
-  margin-bottom: 2em;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 .cta-button {
   display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
   background-color: #007acc;
   color: white;
-  padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
 }
 
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-form button {
-  background-color: #004466;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+ul li::before {
+  content: "✔️ ";
+  color: green;
+}
+
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
