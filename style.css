@@ -1,38 +1,35 @@
-/* style.css */
-
-body {
-  font-family: Arial, sans-serif;
+/* Reset dasar */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
 }
 
+body {
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #222;
+}
+
+/* Header dan navigasi */
 header {
-  background-color: #004466;
+  background-color: #004c75;
   color: white;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
-  margin: 10px 0;
   display: flex;
   justify-content: center;
-  gap: 15px;
-}
-
-nav ul {
-  list-style: none;      /* Menghilangkan bullet */
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-nav ul li {
-  display: inline;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 nav ul li a {
@@ -41,41 +38,79 @@ nav ul li a {
   font-weight: bold;
 }
 
-
-nav ul li a {
-  color: white;
-  text-decoration: none;
+nav ul li a:hover {
+  text-decoration: underline;
 }
 
+/* Hero section */
 .hero {
-  background-color: #e6f4ff;
+  background-color: #e6f2fb;
   padding: 40px 20px;
   text-align: center;
 }
 
-.cta-button {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #007acc;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
 }
 
-ul {
+.hero p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Fitur */
+.fitur {
+  padding: 30px 20px;
+}
+
+.fitur h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.checklist {
   list-style: none;
   padding-left: 0;
 }
 
-ul li::before {
-  content: "✔️ ";
-  color: green;
+.checklist li {
+  margin-bottom: 8px;
+  font-size: 16px;
 }
 
+/* Halaman lain */
+.halaman-lain {
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.halaman-lain h3 {
+  margin-bottom: 10px;
+}
+
+.halaman-lain ul li {
+  margin-bottom: 6px;
+}
+
+/* Footer */
 footer {
-  background-color: #f0f0f0;
+  background-color: #004c75;
+  color: white;
   text-align: center;
   padding: 15px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
