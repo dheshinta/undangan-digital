@@ -9,26 +9,24 @@ Selamat datang di proyek **Undangan Digital** – solusi modern dan elegan untuk
 ## 🌸 Preview Desain
 
 ### 📷 Gaya *Save the Date*
-![Save the Date](https://via.placeholder.com/800x400?text=Save+the+Date+Preview)
-<!-- Ganti link di atas dengan gambar yang telah Anda upload ke GitHub -->
-
----
-
-### 📱 Tema Undangan Responsif
-![Undangan Digital](https://via.placeholder.com/800x400?text=Digital+Invitation+Responsive+Theme)
-<!-- Ganti link di atas dengan gambar yang telah Anda upload ke GitHub -->
+![Save the Date](https://private-user-images.githubusercontent.com/219502133/469096138-5cedf535-1851-4372-84ab-e711460e5204.jpg)
 
 ---
 
 ## ✨ Fitur Utama
 
-- 📱 **Desain Responsif** – Otomatis menyesuaikan dengan ukuran layar (mobile & desktop)
+- 📱 **Desain Responsif** – Otomatis menyesuaikan dengan ukuran layar
 - 💬 **Buku Tamu & RSVP Online**
 - 🗺️ **Integrasi Peta Lokasi (Google Maps)**
 - ⏱️ **Countdown Timer Menuju Hari-H**
 - 🎵 **Musik Latar Opsional**
-- 🌐 **Mudah di-hosting ke GitHub Pages**
+- 🌐 **Siap di-hosting di GitHub Pages**
 
 ---
 
+## 🚀 Cara Menjalankan
 
+1. Clone repo ini:
+   ```bash
+   git clone https://github.com/dheshinta/undangan-digital.git
+   cd undangan-digital
