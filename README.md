@@ -31,9 +31,4 @@ Selamat datang di proyek **Undangan Digital** – solusi modern dan elegan untuk
 
 ---
 
-## 🚀 Cara Menjalankan
 
-1. Clone repo ini:
-   ```bash
-   git clone https://github.com/dheshinta/undangan-digital.git
-   cd undangan-digital
